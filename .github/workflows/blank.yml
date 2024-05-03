@@ -48,4 +48,5 @@ jobs:
           script: |
             docker compose -f /opt/docker-compose/movieham_be/movieham_movie_api/docker-compose.yaml stop
             docker compose -f /opt/docker-compose/movieham_be/movieham_movie_api/docker-compose.yaml rm -f
+            docker compose -f /opt/docker-compose/movieham_be/movieham_movie_api/docker-compose.yaml pull
             docker compose -f /opt/docker-compose/movieham_be/movieham_movie_api/docker-compose.yaml up -d

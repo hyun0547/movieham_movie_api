@@ -11,7 +11,7 @@ public class HomeController {
     @RequestMapping("/")
     @ResponseBody
     public String Home (){
-        return "Welcome to MovieHam";
+        return "Welcome to MovieHam CI CD test";
     }
 
 }
